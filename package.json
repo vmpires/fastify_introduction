@@ -1,0 +1,24 @@
+{
+  "name": "fastify_introduction",
+  "version": "1.0.0",
+  "description": "First fastify API for study and practice",
+  "main": "./src/index.js",
+  "author": "Victor Pires",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "tsc-watch -b --onSuccess 'node dist'"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.2.0",
+    "@fastify/swagger": "^8.0.0",
+    "@fastify/swagger-ui": "^1.0.3",
+    "fastify": "^4.8.1",
+    "fastify-plugin": "^4.3.0",
+    "tsc-watch": "^4.2.9"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.0",
+    "typescript": "^4.4.2"
+  }
+}
